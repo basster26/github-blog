@@ -17,7 +17,7 @@ export function PersonInfo() {
   const [userInfo, setUserInfo] = useState<IUserInfo>()
 
   const fetchUsers = useCallback(async () => {
-    const response = await api.get('users/vilmarsitiodigital')
+    const response = await api.get('users/basster26')
     const {
       name,
       followers,

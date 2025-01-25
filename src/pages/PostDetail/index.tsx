@@ -28,7 +28,7 @@ export function PostDetail() {
 
   const fetchPost = useCallback(async () => {
     const response = await api.get(
-      `/repos/vilmarsitiodigital/github-blog/issues/${id}`,
+      `/repos/basster26/github-blog/issues/${id}`,
     )
     const {
       title,
